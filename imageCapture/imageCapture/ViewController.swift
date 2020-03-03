@@ -13,6 +13,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     
     @IBOutlet weak var galleryButton: UIButton!
     @IBOutlet weak var imageView: UIImageView!
+    
     var takerController: UIImagePickerController!
     var photos: [UIImage] = []
     

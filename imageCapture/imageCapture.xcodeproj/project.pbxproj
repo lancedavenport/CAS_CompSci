@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E006DE323FEF85A007CF759 /* imageCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E006DE323FEF85A007CF759 /* photoGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E006DE623FEF85A007CF759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E006DE823FEF85A007CF759 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7E006DEA23FEF85A007CF759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		7E006DE423FEF85A007CF759 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E006DE323FEF85A007CF759 /* imageCapture.app */,
+				7E006DE323FEF85A007CF759 /* photoGallery.app */,
 				7E006DF923FEF85C007CF759 /* imageCaptureTests.xctest */,
 				7E006E0423FEF85C007CF759 /* imageCaptureUITests.xctest */,
 			);
@@ -148,7 +148,7 @@
 			);
 			name = imageCapture;
 			productName = imageCapture;
-			productReference = 7E006DE323FEF85A007CF759 /* imageCapture.app */;
+			productReference = 7E006DE323FEF85A007CF759 /* photoGallery.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7E006DF823FEF85C007CF759 /* imageCaptureTests */ = {
@@ -446,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LanceDavenport.imageCapture;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = photoGallery;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LanceDavenport.imageCapture;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = photoGallery;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

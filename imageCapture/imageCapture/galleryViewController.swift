@@ -20,7 +20,6 @@ class galleryViewController: UIViewController {
         loadPhotos()
         // Do any additional setup after loading the view.
     }
-
     
     func loadPhotos(){
         let pictures = images.map({(image) -> UIImageView in
@@ -40,15 +39,4 @@ class galleryViewController: UIViewController {
             }
         }
     }
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
 }

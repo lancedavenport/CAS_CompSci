@@ -62,7 +62,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="imageCapture" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="photoGallery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,7 +129,7 @@
         <!--Gallery View Controller-->
         <scene sceneID="go1-wD-zjq">
             <objects>
-                <viewController id="k4s-Tl-8qE" customClass="galleryViewController" customModule="imageCapture" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="k4s-Tl-8qE" customClass="galleryViewController" customModule="photoGallery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6wH-we-yT8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
