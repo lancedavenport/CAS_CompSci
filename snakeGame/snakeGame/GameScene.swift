@@ -151,7 +151,7 @@ class GameScene: SKScene {
         playButton.name = "play_button"
         playButton.zPosition = 1
         playButton.position = CGPoint(x: 0, y: (frame.size.height / -2) + 200)
-        playButton.fillColor = SKColor.systemPurple
+        playButton.fillColor = SKColor.blue
         let topCorner = CGPoint(x: -50, y: 50)
         let bottomCorner = CGPoint(x: -50, y: -50)
         let middle = CGPoint(x: 50, y: 0)
